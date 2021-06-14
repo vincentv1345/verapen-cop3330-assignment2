@@ -14,10 +14,10 @@ public class testIndicators extends checkPassword{
                 System.out.println("The password '" + password + "' is a weak password.");
         }
         else if(strongPassword == true){
-                System.out.println("The password '" + password + "' is a strong password.");
-            }
+            System.out.println("The password '" + password + "' is a strong password.");
+        }
         else if(strongerPassword == true){
-            System.out.println("The password '" + password + "' is a very strong password.");
+                System.out.println("The password '" + password + "' is a very strong password.");
         }
     }
 }

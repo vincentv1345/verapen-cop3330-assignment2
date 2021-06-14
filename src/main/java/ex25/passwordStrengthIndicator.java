@@ -6,6 +6,8 @@ public class passwordStrengthIndicator {
         testIndicators p = new testIndicators();
         String password = p.getPassword();
         p.indicator(password);
+        boolean f =p.checkStrongPassword(password);
+        System.out.println(f);
     }
 
 }
