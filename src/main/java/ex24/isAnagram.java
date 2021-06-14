@@ -1,7 +1,7 @@
 package ex24;
 import java.util.Arrays;
 
-public class checkAnagrams extends getWords{
+public class isAnagram extends getWords{
     public boolean checkLength(String word1, String word2)
     {
         boolean x = false;
